@@ -16,24 +16,37 @@ body {
     background-color: var(--earth-page-bg);
 }
 
+.container {
+    margin: 150px 0;
+}
+
 h1 {
     font-weight: 700;
     font-size: 60px;
+    text-align: center;
 }
 
-.text {
-    width: 100%;
-    text-align: center;
+.text p {
+    margin: auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .images img {
     text-align: center;
     width: 200px;
+    margin: 0 15px;
 }
 
 .images {
     display: flex;
     justify-content: center;
 
+}
+
+a:active {
+    width: 300px;
 }
 
