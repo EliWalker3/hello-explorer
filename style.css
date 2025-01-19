@@ -1,1 +1,15 @@
+:root {
+    --earth-page-bg: #50C1E7;
+    --moon-page-bg: #111111;
+    --sun-font-color: #112A46;
+    --moon-font-color: #F5F5F5;
+}
 
+.text {
+    
+}
+
+.images {
+    display: flex;
+    width: 450px;
+}
