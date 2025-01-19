@@ -1,15 +1,39 @@
 :root {
     --earth-page-bg: #50C1E7;
     --moon-page-bg: #111111;
-    --sun-font-color: #112A46;
+    --earth-font-color: #0F0F0F;
     --moon-font-color: #F5F5F5;
+    color: var(--earth-font-color);
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: var(--earth-page-bg);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
 }
 
 .text {
-    
+    width: 100%;
+    text-align: center;
+}
+
+.images img {
+    text-align: center;
+    width: 200px;
 }
 
 .images {
     display: flex;
-    width: 450px;
+    justify-content: center;
+
 }
+
