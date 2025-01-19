@@ -37,7 +37,8 @@ h1 {
 
 .images img {
     text-align: center;
-    width: 300px;
+    width: 350px;
+    max-width: 500px;
     margin: 0 15px;
 }
 
