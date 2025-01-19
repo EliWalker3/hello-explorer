@@ -28,15 +28,16 @@ h1 {
 
 .text p {
     margin: auto;
-    width: 500px;
+    width: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 1.4;
 }
 
 .images img {
     text-align: center;
-    width: 200px;
+    width: 300px;
     margin: 0 15px;
 }
 
@@ -46,7 +47,7 @@ h1 {
 
 }
 
-a:active {
+a.active {
     width: 300px;
 }
 
