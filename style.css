@@ -11,9 +11,17 @@ html {
     margin: 0;
 }
 
-body {
+#body {
     font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#body.earth-bg {
     background-color: var(--earth-page-bg);
+}
+
+#body.moon-bg {
+    background-color: var(--moon-page-bg);
+    color: var(--moon-font-color);
 }
 
 .container {
@@ -48,7 +56,13 @@ h1 {
 
 }
 
-a.active {
-    width: 300px;
+.earth {
+    border: 8px solid rgb(227, 227, 227);
+    border-radius: 50%;
+}
+
+.moon {
+    border: 8px solid rgb(227, 227, 227);
+    border-radius: 50%;
 }
 
